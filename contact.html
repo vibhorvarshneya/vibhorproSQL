@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Feedback</title>
+<link rel="stylesheet" type="text/css" href="./mystyle.css">
+</head>
+<script src="./jquery-1.10.1.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$(".footer").fadeIn(1000);
+		$("#header").fadeIn(1000);
+		$("#reader").slideDown(2000);
+			});
+</script>
+
+<body>
+<div id="header">
+<div id="logo">VIT Academics</div>
+<div id="navbar">
+<li><a href="./index.php">Home</a></li>
+<li><a href="./app.html">App</a></li>
+<li><a href="./aboutus.html">About Us</a></li>
+<li><a href="./contact.html">Feedback</a></li>
+</div>
+</div>
+<div id="container" align="center">
+	<div id="reader">
+	<b id="heading">Feedback</b>
+	<br></br>
+	You can send your feedback to us directly by typing the message and the topic of it.
+	<br></br>
+	<label for="subject" id="label2"> Subject </label>
+	<input type="text"  name="subject" id="subject" class="contactForm subject"><br /><br />
+	<label for="message" id="label1"> Message </label>
+	<input type="text"  name="message" id="message1" class="contactForm message">
+	<button id="send-email" class="sendEmail" onclick="formValidation1()">Send</button>
+	
+	
+	</div>
+	</div>
+<div class="footer">
+<div id="newfoot" >
+<li><a href="./support.html"> Support </a></li>
+<li><a href="./terms& conditions.html"> Terms & Conditions</a></li>
+<li><a href="./faqs.html">Help ! FAQs </a></li>
+<li><a href="./legalpolicies.html">Legal Policies</a></li>
+</div>
+Copyright &copy 2013 . All rights reserved.
+</div>
+</body>
+</html>

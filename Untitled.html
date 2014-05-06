@@ -1,0 +1,73 @@
+<html>
+<head>
+<style>
+@-webkit-keyframes greenPulse {
+  from { background-color:white; -webkit-box-shadow: 0 0 0 #333; }
+  to { background-color: white; -webkit-box-shadow: 0 0 70px white; }
+}
+
+@-webkit-keyframes greyPulse {
+  from { color:white; -webkit-box-shadow: 0 0 0 #333; }
+  to { color: white; -webkit-box-shadow: 0 0 70px white; 
+  }
+}
+
+a{
+  text-decoration: none;
+  color:black;
+  display: block;
+}
+#butt{
+line-height: 8;
+background-color:white;
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  border:none;
+  font-family: "Helvetica Neue",sans-serif;
+	color:black;
+	font-weight:200;
+	font-size: 24px;
+  padding: 0.5em;
+  text-decoration: none;
+left:100px;
+position: relative;
+top:80px;
+	
+}
+#butt:hover {
+  background-color: white;
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-box-shadow: 0 0 70px white;
+}
+
+body{
+	
+	background:url("background.png");
+}
+
+h1{
+	font-family: "Helvetica Neue",sans-serif;
+	color:white;
+	font-weight:400;
+	font-size: 100px;
+  -webkit-animation-name: greyPulse;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-box-shadow: 0 0 70px white;
+	
+}
+</style>
+</head>
+<body>
+<div id="butt" align="center">
+<a href="" class="green button">Faculty Login</a>
+</div>
+<h1>
+Faculty
+</h1>
+
+</body>
+</html>
